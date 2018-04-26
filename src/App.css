@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  padding-top: 30px;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+input {
+  font-size: 3em;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 3px;
+  text-align: center;
+  color: transparent;
+  text-shadow: 0 0 0 #168500;
+  margin: 20px 0;
+}
+
+.letter-used span {
+ letter-spacing: 3px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
